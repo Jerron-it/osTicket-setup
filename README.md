@@ -67,10 +67,42 @@ Creating the Virtual Machine – After creating the Resource Group and Virtual N
 
 <p>
 <img width="1440" height="900" alt="VMip" src="https://github.com/user-attachments/assets/121d2e43-44a6-4baf-afa4-b0f07649b8d3" />
-<img width="1440" height="900" alt="VMip" src="https://github.com/user-attachments/assets/967cd95d-08ad-4767-85e6-0e4e996caf1d" />
+  
+<img width="1440" height="900" alt="RD Add Comp" src="https://github.com/user-attachments/assets/30e1fecc-c75b-45b8-a911-ed75009f717a" />
+
 <img width="1440" height="900" alt="Screenshot 2026-08-17 at 4 38 32 PM" src="https://github.com/user-attachments/assets/ba445c00-2e28-4171-8da4-41bdb80a3964" />
 </p>
 <p>
 Connecting to the Virtual Machine – I am locating the virtual machine’s public IP address in Azure, entering that IP into the Windows App, and connecting to the VM. Once connected, I am logging in with the osUser account I created earlier.
 </p>
 <br />
+
+<p>
+<img width="1440" height="900" alt="Download os" src="https://github.com/user-attachments/assets/b501d499-a592-4549-b65a-aea5622d9a37" />
+<img width="1440" height="900" alt="Extract All to desk" src="https://github.com/user-attachments/assets/74498e6d-9430-4168-abbe-f20f4540d96c" />
+
+
+</p>
+<p>
+Downloading and Extracting osTicket Files – I am using Microsoft Edge to download the osTicket installation ZIP file. Once the download is complete, I will open the Downloads folder, right-click the file, select Extract All, and extract the installation files so I can use them for the setup.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 9 13 07 PM" src="https://github.com/user-attachments/assets/71c22433-d7c7-489e-a63b-291273b2dfbc" />
+  <img width="1440" height="900" alt="Screenshot 2026-08-17 at 9 16 53 PM" src="https://github.com/user-attachments/assets/9ff55681-26f6-43de-bad2-ee8fcbcd9d12" />
+</p>
+<p>
+Enabling IIS and CGI – I am opening Windows Features, enabling Internet Information Services (IIS), then expanding World Wide Web Services → Application Development Features and checking CGI so osTicket can run properly on the web server.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 9 20 57 PM" src="https://github.com/user-attachments/assets/6fad8382-b20b-4d63-86d4-e9523bc9338a" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 9 24 13 PM" src="https://github.com/user-attachments/assets/db57ee39-d01d-44fe-85c7-b141797a4a92" />
+</p>
+<p>
+Installing PHP Manager and URL Rewrite Module – I am opening the osTicket installation files on the desktop and installing both PHP Manager for IIS and the IIS URL Rewrite Module to prepare the web server for osTicket.
+</p>
+<br />
+
