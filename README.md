@@ -106,3 +106,77 @@ Installing PHP Manager and URL Rewrite Module – I am opening the osTicket inst
 </p>
 <br />
 
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 24 48 PM" src="https://github.com/user-attachments/assets/42f3f171-7d9c-4093-a635-9c24c9f302f4" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 25 27 PM" src="https://github.com/user-attachments/assets/86217770-3005-428a-bf4d-effea1408d71" />
+</p>
+<p>
+Creating the PHP Folder and Extracting PHP – I am creating a new folder named PHP on the C: drive. Then I will go back to the osTicket installation files, right-click PHP 7.3.8, select Extract All, and extract the files into the new C:\PHP folder.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 41 46 PM" src="https://github.com/user-attachments/assets/69719eda-edf5-469c-aaf5-648f23dc05e4" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 42 23 PM" src="https://github.com/user-attachments/assets/b035485a-76b4-45ac-9f87-85d6a32b4c06" />
+</p>
+<p>
+Installing MySQL and VC++ Redistributable – I am going back to the osTicket installation files and installing MySQL 5.5.62 using the Typical setup. For the configuration, I am selecting Standard Configuration, and once MySQL is set up, I will install VC_redist.x86.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 47 34 PM" src="https://github.com/user-attachments/assets/b08ae702-46da-48ad-ab41-4d33c717d609" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 48 25 PM" src="https://github.com/user-attachments/assets/309cacb7-2ae7-403a-a56a-f103ada93223" />
+</p>
+<p>
+Registering PHP in IIS – I am searching for IIS Manager and running it as an administrator. Then I will open PHP Manager, register PHP by selecting C:\PHP\php-cgi.exe, and restart IIS so the changes can take effect.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 55 24 PM" src="https://github.com/user-attachments/assets/cd711a5f-f6c1-45c2-9c0f-ef1ae7080554" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 10 57 04 PM" src="https://github.com/user-attachments/assets/21e6484c-c2ad-42d9-b129-daf491e1c2c2" />
+<img width="1440" height="900" alt="Screenshot 2026-08-17 at 11 09 32 PM" src="https://github.com/user-attachments/assets/bc8a87d5-8990-43fb-95f9-e945efd1b3c9" />
+</p>
+<p>
+Moving osTicket Files to IIS – I am extracting osTicket-v1.15.8.zip, copying the upload folder into C:\inetpub\wwwroot, and then renaming the folder to osTicket.
+</p>
+<br />
+
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 9 51 44 AM" src="https://github.com/user-attachments/assets/82edfdee-5e27-4da5-932f-a2a172eee34a" />
+</p>
+<p>
+Opening the osTicket Site and Enabling PHP Extensions – I am going to *Sites → Default Web Site → Browse :80 (http) to open the site. Then I will go back to PHP Manager and enable php_imap.dll, php_intl.dll, and php_opcache.dll.
+</p>
+<br />
+
+<p>
+
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+
+
+</p>
+<p>
+
+</p>
+<br />
+
+
