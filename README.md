@@ -218,6 +218,22 @@ Opening the End-User Portal and Creating a Test Ticket – I am going to http://
 Verifying the Test Ticket – After submitting the test ticket, I am switching back to the admin portal and refreshing the page. The new ticket appears successfully, confirming that osTicket is installed, configured, and working properly from the end-user side to the admin side.
 </p>
 <br />
+<h2>Skills Demonstrated</h2>
+
+- Microsoft Azure Virtual Machine Deployment
+- Windows Administration
+- Remote Desktop (RDP)
+- IIS Web Server Configuration
+- PHP Installation and Configuration
+- MySQL Database Setup
+- HeidiSQL Database Management
+- Windows File and Folder Permissions
+- osTicket Installation and Configuration
+- Help Desk Ticket Creation and Testing
+
+<h2>Project Summary</h2>
+
+In this project, I built an osTicket help desk environment from scratch using a Windows virtual machine hosted in Microsoft Azure. I configured IIS, PHP, MySQL, HeidiSQL, and the required file permissions before completing the osTicket installation. I finished the project by creating a test ticket through the end-user portal and confirming that the ticket successfully appeared in the admin portal.
 
 
 
