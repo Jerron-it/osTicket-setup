@@ -13,7 +13,7 @@ This tutorial outlines the process of setting up and configuring the open-source
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure – Hosted the virtual machine
-- Windows 10 – Operating system used for the osTicket server
+- Windows 10 Enterprise N 22H2 – Operating system used for the osTicket server
 - Internet Information Services (IIS) – Web server used to run osTicket
 - PHP – Required to run the osTicket application
 - MySQL – Database used to store ticket and user information
@@ -23,7 +23,7 @@ This tutorial outlines the process of setting up and configuring the open-source
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 Pro</b> (21H2)
+- Windows 10 Enterprise N 22H2</b> (21H2)
 
 <h2>osTicket Setup Stages</h2>
 
@@ -36,7 +36,7 @@ This tutorial outlines the process of setting up and configuring the open-source
 - Create the Database
 - Finish the osTicket Setup
 
-<h2>osTicket Setup Stages</h2>
+<h2>osTicket Installation & Configuration</h2>
 
 <p>
 <img width="1440" height="900" alt="ResourceGroup" src="https://github.com/user-attachments/assets/9f004952-7bcc-4783-9a84-bf5eb3967615" />
@@ -182,7 +182,7 @@ Completing the osTicket Setup – I am going back to the web browser to continue
 <img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 45 25 AM" src="https://github.com/user-attachments/assets/cdca7440-5722-4df4-b1c9-b2630d29afe1" /> 
 </p>
 <p>
-Installing and Connecting HeidiSQL – Before finishing the osTicket setup, I am installing HeidiSQL from the osTicket files on the desktop. Once it is installed, I will open HeidiSQL, create a new session, enter root as both the username and password, and open the connection to the osTicketing System.
+Installing and Connecting HeidiSQL – Before finishing the osTicket setup, I am installing HeidiSQL from the osTicket files on the desktop. Once it is installed, I will open HeidiSQL, create a new session, enter root as both the username and password (For this lab enviorment only), and open the connection to the osTicketing System.
 </p>
 <br />
 <p>
