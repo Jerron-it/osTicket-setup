@@ -192,6 +192,33 @@ Installing and Connecting HeidiSQL – Before finishing the osTicket setup, I am
 Confirming Successful osTicket Installation – The osTicket installation has completed successfully. I can now see the confirmation page, along with the links for the osTicket user portal and the Staff Control Panel, which shows that the system is ready for final configuration and testing.
 </p>
 <br />
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 48 44 AM" src="https://github.com/user-attachments/assets/65f455d1-039c-40cb-95fa-4c03817f955f" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 54 17 AM" src="https://github.com/user-attachments/assets/686d05d0-3901-4c20-8b5c-e3df458e7b99" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 55 54 AM" src="https://github.com/user-attachments/assets/69a51060-9691-43d4-bc42-b6621b416647" />
+</p>
+<p>
+Verifying the Database and Logging Into osTicket – Now that osTicket is installed, I am refreshing the osTicket database in HeidiSQL to confirm the tables were created. Then I will open http://localhost/osTicket/scp/login.php in the web browser and log in using the adminuser account I created earlier to confirm the admin portal is working.
+</p>
+<br />
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 58 03 AM" src="https://github.com/user-attachments/assets/de66a64f-6882-4b86-b69d-366a10741e2d" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 59 58 AM" src="https://github.com/user-attachments/assets/231067d7-06f1-4fa1-9f91-431c48f7c7a9" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 11 01 25 AM" src="https://github.com/user-attachments/assets/80c053ae-e473-4522-b6b1-7b40c418393c" />
+</p>
+<p>
+Opening the End-User Portal and Creating a Test Ticket – I am going to http://localhost/osTicket/ to open the end-user portal. Once the page loads, I will create a new test ticket using Jane Doe and a simulated no-internet issue, then submit it so I can verify that it appears on the admin side.
+</p>
+<br />
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 11 01 42 AM" src="https://github.com/user-attachments/assets/2e2e18c9-7173-4e94-bb58-9003ea849ca5" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 11 01 54 AM" src="https://github.com/user-attachments/assets/6d1af1f3-22d6-4864-8a60-b4f06b1b33aa" />  
+</p>
+<p>
+Verifying the Test Ticket – After submitting the test ticket, I am switching back to the admin portal and refreshing the page. The new ticket appears successfully, confirming that osTicket is installed, configured, and working properly from the end-user side to the admin side.
+</p>
+<br />
+
 
 
 
