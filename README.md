@@ -153,30 +153,45 @@ Opening the osTicket Site and Enabling PHP Extensions – I am going to *Sites �
 <br />
 
 <p>
-
-
+<img width="671" height="588" alt="Screenshot 2026-08-19 at 8 36 48 PM" src="https://github.com/user-attachments/assets/814b05fb-d6ec-4c03-9716-25024a573514" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 05 24 AM" src="https://github.com/user-attachments/assets/7f0e2e3b-846e-414e-8bb0-1d868e8c76ba" />
 </p>
 <p>
-
+Renaming and Securing the osTicket Configuration File – I am going to C:\inetpub\wwwroot\osTicket\include, renaming ost-sampleconfig.php to ost-config.php, then opening Properties → Security → Advanced and disabling inheritance so I can change the file permissions.
 </p>
 <br />
 
 <p>
-
-
+<img width="624" height="690" alt="Screenshot 2026-08-19 at 8 40 57 PM" src="https://github.com/user-attachments/assets/9f75d7ef-6dde-4b59-b15d-6e1e94e1dce1" />
 </p>
 <p>
-
+Assigning Permissions to the Configuration File – I am selecting Add → Select a Principal, typing Everyone, and clicking Check Names so I can assign the needed permissions to the ost-config.php file.
 </p>
 <br />
 
 <p>
-
-
+<img width="567" height="702" alt="Screenshot 2026-08-19 at 8 42 21 PM" src="https://github.com/user-attachments/assets/c3ec5823-ea32-44ea-911e-0c2cea81ea8b" />
 </p>
 <p>
-
+Completing the osTicket Setup – I am going back to the web browser to continue the osTicket setup, filling in the required information, and making sure the admin email and system email are different before continuing.
 </p>
 <br />
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 36 01 AM" src="https://github.com/user-attachments/assets/dac65046-8d8b-4f64-9a0e-549268021417" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 37 46 AM" src="https://github.com/user-attachments/assets/06471f2e-7f38-48aa-90c9-b887ea683a8d" />
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 45 25 AM" src="https://github.com/user-attachments/assets/cdca7440-5722-4df4-b1c9-b2630d29afe1" /> 
+</p>
+<p>
+Installing and Connecting HeidiSQL – Before finishing the osTicket setup, I am installing HeidiSQL from the osTicket files on the desktop. Once it is installed, I will open HeidiSQL, create a new session, enter root as both the username and password, and open the connection to the osTicketing System.
+</p>
+<br />
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-08-18 at 10 47 42 AM" src="https://github.com/user-attachments/assets/26a4a423-a652-4d3e-80d4-bebcf5e51e9b" />
+</p>
+<p>
+Confirming Successful osTicket Installation – The osTicket installation has completed successfully. I can now see the confirmation page, along with the links for the osTicket user portal and the Staff Control Panel, which shows that the system is ready for final configuration and testing.
+</p>
+<br />
+
 
 
