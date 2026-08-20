@@ -8,7 +8,7 @@ This tutorial outlines the process of setting up and configuring the open-source
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
+- ### [YouTube: Azure osTicket Help Desk Lab Demonstration | Starting My Ticketing System](https://youtu.be/PwbPgSFsVe0)
 
 <h2>Environments and Technologies Used</h2>
 
