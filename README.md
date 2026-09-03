@@ -430,4 +430,4 @@ This lab strengthened my understanding of **help desk operations, Windows admini
 
 **GitHub:** [Jerron-it](https://github.com/Jerron-it)
 
-**LinkedIn:** [Add LinkedIn Profile Here](YOUR-LINKEDIN-URL)
+**LinkedIn:** [Jerron Lackey](https://www.linkedin.com/in/jerron-lackey-bb2588419/)
